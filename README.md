@@ -1,12 +1,13 @@
 ## Overview
-Proyek ini berfokus pada pembuatan dashboard kinerja PT Kimia Farma periode tahun 2020-2023 dengan tujuan untuk menganalisis data penjualan di berbagai wilayah dan periode waktu tersebut. Dashboard ini bertujuan untuk memberikan wawasan tentang tren penjualan, profit, volume transaksi, dan kinerja regional dari waktu ke waktu.
+Proyek ini berfokus pada pembuatan dashboard kinerja PT Kimia Farma periode tahun 2020-2023 dengan tujuan untuk menganalisis data penjualan di berbagai wilayah dan periode waktu tersebut. </br> Dashboard ini bertujuan untuk memberikan wawasan tentang tren penjualan, profit, volume transaksi, dan kinerja regional dari waktu ke waktu.
 
 ## Tools yang Digunakan
 - **PostgreSQL**: Manipulasi dan ekstraksi data.
 - **Google Looker Studio**: Visualisasi Data.
 
 ## Data
-Data yang digunakan berasal dari table master kimiafarma.analytic yang merupakan hasil ekstraksi dari beberapa dataset yang tersedia yaitu final_transaction, inventory, kantor_cabang, product, rating. Query lengkap proses ekstraksi dapat dilihat pada file `Data_Extraction.sql`
+Data yang digunakan berasal dari table master kimiafarma.analytic yang merupakan hasil ekstraksi dari beberapa dataset yang tersedia yaitu final_transaction, inventory, kantor_cabang, product, dan rating. </br>
+Query lengkap proses ekstraksi dapat dilihat pada file `Data_Extraction.sql`
 
 ## Komponen Dashboard
 Setelah table master dibuat, langkah selanjutnya yaitu memvisualisasikan hasil analisis melalui dashboard kinerja (performance dashboard). 
@@ -15,7 +16,7 @@ Secara garis besar, dashboard kinerja mencakup komponen-komponen sebagai berikut
 2. **Kinerja Cabang**: Menampilkan kinerja penjualan di berbagai wilayah menggunakan tabel dan peta.
 3. **Analisis Perbandingan**: Menampilkan perbandingan penjualan dari waktu ke waktu.
 
-<img width="445" alt="image" src="https://github.com/ramlanapriyansyah/kimiafarma_performance_analysis/assets/135192484/04d73fec-647b-4ae8-a6c1-deef6994551e">
+<img width="900" alt="image" src="https://github.com/ramlanapriyansyah/kimiafarma_performance_analysis/assets/135192484/04d73fec-647b-4ae8-a6c1-deef6994551e">
 
 
 Dashboard lengkap: https://lookerstudio.google.com/reporting/0bbeacfb-72ae-4209-8cfb-02877892aa04

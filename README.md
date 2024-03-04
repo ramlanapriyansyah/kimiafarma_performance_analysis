@@ -2,7 +2,7 @@
 Proyek ini berfokus pada pembuatan dashboard kinerja PT Kimia Farma periode tahun 2020-2023 dengan tujuan untuk menganalisis data penjualan di berbagai wilayah dan periode waktu tersebut. </br> Dashboard ini bertujuan untuk memberikan wawasan tentang tren penjualan, profit, volume transaksi, dan kinerja regional dari waktu ke waktu.
 
 ## Tools yang Digunakan
-- **PostgreSQL**: Manipulasi dan ekstraksi data.
+- **BigQuery**: Manipulasi dan ekstraksi data.
 - **Google Looker Studio**: Visualisasi Data.
 
 ## Data

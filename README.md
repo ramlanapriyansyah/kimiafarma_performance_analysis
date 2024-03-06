@@ -7,6 +7,10 @@ Proyek ini berfokus pada pembuatan dashboard kinerja PT Kimia Farma periode tahu
 
 ## Data
 Data yang digunakan berasal dari table master kimiafarma.analytic yang merupakan hasil ekstraksi dari beberapa dataset yang tersedia yaitu final_transaction, inventory, kantor_cabang, product, dan rating. </br>
+
+<img width="937" alt="image" src="https://github.com/ramlanapriyansyah/kimiafarma_performance_analysis/assets/135192484/bd3c6696-641e-467d-aa1a-e7a47256dc19">
+
+Table Lengkap dapat dilihat pada link berikut: [Tabel Analisa](https://docs.google.com/spreadsheets/d/1OOX667J5uBE5b6GMafVx0dMVFqDgvXHeDxw0_hukxj4/edit?usp=sharing) </br>
 Query lengkap proses ekstraksi dapat dilihat pada file `Data_Extraction.sql`
 
 ## Komponen Dashboard
